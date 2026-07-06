@@ -13,7 +13,7 @@ const Bebas = localfont({
 })
 
 const Inter = localfont({
-  src : './Fonts/Inter-Italic-VariableFont_opsz,wght.ttf',
+  src : './Fonts/Inter-VariableFont_opsz,wght.ttf',
   variable : '--font-inter'
 })
 

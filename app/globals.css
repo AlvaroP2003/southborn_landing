@@ -11,5 +11,9 @@ h2,h3,p,span {
 }
 
 main h1 {
-  font-size: clamp(4rem, 8vw, 50rem);
+  font-size: clamp(6rem, 8vw, 50rem);
+
+   background: linear-gradient(to top, #ffffff, #a7a7a7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
