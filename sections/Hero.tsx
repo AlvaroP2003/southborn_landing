@@ -29,11 +29,11 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
 
 
             {/* Main Section */}
-            <main className="relative flex-1 flex pt-55 items-center flex-col px-5">
+            <main className="relative flex-1 flex lg:pt-55 pt-40 items-center flex-col px-5">
 
                     <h1 className="text-white">SOUTHBORN</h1>
-                    <h2 className="text-white lg:text-xl text-sm tracking-[10] my-4 mb-8 font-medium">COMING SOON</h2>
-                    <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-sm text-center mb-10">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
+                    <h2 className="text-white lg:text-xl text-sm tracking-[14] my-4 mb-8 font-medium">COMING SOON</h2>
+                    <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-xs text-center mb-10">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
 
                      <ul className="flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm border-t border-white/20 py-6 px-8 lg:px-12 mx-4">
                     {
