@@ -9,18 +9,18 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
     return (
         <section id="hero" className="relative h-screen flex flex-col bg-black">
 
-            <video
-            src="/hero_lg.mp4"
-            className="hidden lg:block lg:absolute h-full w-full object-cover rotate-180 opacity-60"
-            autoPlay
-            muted
-            loop
-            playsInline
-            />
             
-            <div className=" lg:hidden absolute h-full w-full">
-                <Image src={'/hero_sml.jpg'} fill alt="header_logo" className="object-cover"/>
+            {/* Hero Images */}
+            <div className="lg:hidden absolute h-full w-full">
+                <Image src={'/hero_sml.png'} fill alt="header_logo" className="object-cover"/>
             </div>
+
+            <div className="hidden lg:block absolute h-full w-full">
+                <Image src={'/hero_lg.png'} fill alt="header_logo" className="object-cover"/>
+            </div>
+
+            {/* Overlay */}
+            <div className="absolute bg-neutral-950/70 inset-0"/>
 
 
             {/* Header */}
@@ -34,7 +34,7 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
 
 
             {/* Main Section */}
-            <main className="relative flex-1 flex lg:pt-55 pt-40 items-center flex-col px-5">
+            <main className="relative flex-1 flex pt-55 items-center flex-col px-5">
 
                     <h1 className="text-white">SOUTHBORN</h1>
                     <h2 className="text-white lg:text-xl text-sm tracking-[14] my-4 mb-8 font-medium">COMING SOON</h2>
