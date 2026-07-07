@@ -19,13 +19,23 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
             />
 
             {/* Header */}
-            <header className="relative lg:h-[15vh] flex justify-between items-center lg:px-20 p-5">
+            <header className="relative lg:h-[15vh] flex justify-center items-center lg:px-20 p-5">
 
-                <div className="relative w-22 h-15">
+                <div className="relative w-15 h-10 lg:w-22 lg:h-15">
                     <Image src={'/header_logo.png'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
-                <ul className="flex flex-col text-neutral-400 lg:flex-row lg:gap-10 gap-2 items-end text-sm">
+            </header>
+
+
+            {/* Main Section */}
+            <main className="relative flex-1 flex pt-55 items-center flex-col px-5">
+
+                    <h1 className="text-white">SOUTHBORN</h1>
+                    <h2 className="text-white lg:text-xl text-sm tracking-[20] my-4 mb-8 font-medium">COMING SOON</h2>
+                    <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-sm text-center mb-10">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
+
+                     <ul className="flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm border-t border-white/20 py-6 px-8 lg:px-12 mx-10">
                     {
                         socials.map((item,i) => (
                             <Link key={i} href={item.href} target="blank" className="hover:text-white transition-all cursor-pointer tracking-wider">
@@ -34,16 +44,6 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
                         ))
                     }
                 </ul>
-
-            </header>
-
-
-            {/* Main Section */}
-            <main className="relative flex-1 flex lg:pt-55 pt-50 items-center flex-col px-5">
-
-                    <h1 className="text-white">SOUTHBORN</h1>
-                    <h2 className="text-white lg:text-xl text-sm tracking-[20] my-6 font-medium">COMING SOON</h2>
-                    <p className="text-neutral-400 lg:max-w-[35%] lg:text-lg text-sm text-center">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
             </main>
         </section>
     )
