@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 h1 {
   font-family: var(--font-bebas);
   line-height: 0.9;

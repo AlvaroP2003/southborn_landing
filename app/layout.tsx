@@ -25,9 +25,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${Bebas.variable} ${Inter.variable} h-full antialiased`}
+      className={`${Bebas.variable} ${Inter.variable}`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
