@@ -41,7 +41,7 @@ export default function Loader() {
             <div id="loader-bottom" className="bg-neutral-950 flex-1"/>
 
             <div id="loader-logo" className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] h-25 w-25 opacity-0">
-                <Image src="/main_icon.png" fill alt="loader-logo" className="object-cover"/>
+                <Image src="/main_icon.svg" fill alt="loader-logo" className="object-cover"/>
             </div>
             
         </section>

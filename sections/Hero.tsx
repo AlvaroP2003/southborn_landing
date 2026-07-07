@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link";
 
@@ -11,12 +12,23 @@ export default function Hero() {
 
 const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "TikTok" }, { href: "https://www.instagram.com/southborn_apparel", label: "Instagram" }, { href: "https://www.facebook.com/profile.php?id=61591599837592", label: "Facebook" }, { href: "https://www.youtube.com/channel/UC-vcu5yTV7KU91salYxz1bA", label: "YouTube" }, { href: "https://www.linkedin.com/company/southborn/", label: "LinkedIn" } ];
 
+    const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
+
+    useEffect(() => {
+        const mql = window.matchMedia('(min-width: 1024px)');
+        setIsDesktop(mql.matches);
+
+        const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
+        mql.addEventListener('change', handler);
+        return () => mql.removeEventListener('change', handler);
+    }, []);
 
     useGSAP(() => {
         gsap.from('#main', {
-            yPercent:20,
+            yPercent:10,
             autoAlpha:0,
-            delay:4,
+            delay:3.5,
+            ease: 'power2.out'
         })
 
     },[])
@@ -25,14 +37,19 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
         <section id="hero" className="relative h-screen flex flex-col bg-black overflow-hidden border-2">
 
             
-            {/* Hero Images */}
-            <div className="lg:hidden absolute h-full w-full">
-                <Image src={'/hero_sml.webp'} fill alt="header_logo" className="object-cover"/>
-            </div>
-
-            <div className="hidden lg:block absolute h-full w-full">
-                <Image src={'/hero_lg.webp'} fill alt="header_logo" className="object-cover"/>
-            </div>
+            {/* Hero Image */}
+            {isDesktop !== null && (
+                <div className="absolute h-full w-full">
+                    <Image
+                        src={isDesktop ? '/hero_lg.webp' : '/hero_sml.webp'}
+                        fill
+                        alt="header_logo"
+                        className="object-cover"
+                        sizes="100vw"
+                        priority
+                    />
+                </div>
+            )}
 
             {/* Overlay */}
             <div className="absolute bg-neutral-950/70 inset-0"/>
@@ -42,7 +59,7 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
             <header className="relative lg:h-[15vh] flex justify-center items-center lg:px-20 p-5">
 
                 <div className="relative w-10.5 h-7 lg:w-18 lg:h-12">
-                    <Image src={'/main_icon.png'} fill alt="header_logo" className="object-cover"/>
+                    <Image src={'/main_icon.svg'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
             </header>
