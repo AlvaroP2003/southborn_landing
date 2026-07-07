@@ -11,17 +11,22 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
 
             <video
             src="/hero_lg.mp4"
-            className="absolute h-full w-full object-cover rotate-180 opacity-60"
+            className="hidden lg:block lg:absolute h-full w-full object-cover rotate-180 opacity-60"
             autoPlay
             muted
             loop
             playsInline
             />
+            
+            <div className=" lg:hidden absolute h-full w-full">
+                <Image src={'/hero_sml.jpg'} fill alt="header_logo" className="object-cover"/>
+            </div>
+
 
             {/* Header */}
             <header className="relative lg:h-[15vh] flex justify-center items-center lg:px-20 p-5">
 
-                <div className="relative w-10.5 h-7 lg:w-22 lg:h-15">
+                <div className="relative w-10.5 h-7 lg:w-18 lg:h-12">
                     <Image src={'/header_logo.png'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
