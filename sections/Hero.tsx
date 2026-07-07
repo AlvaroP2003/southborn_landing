@@ -27,11 +27,11 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
             
             {/* Hero Images */}
             <div className="lg:hidden absolute h-full w-full">
-                <Image src={'/hero_sml.png'} fill alt="header_logo" className="object-cover"/>
+                <Image src={'/hero_sml.webp'} fill alt="header_logo" className="object-cover"/>
             </div>
 
             <div className="hidden lg:block absolute h-full w-full">
-                <Image src={'/hero_lg.png'} fill alt="header_logo" className="object-cover"/>
+                <Image src={'/hero_lg.webp'} fill alt="header_logo" className="object-cover"/>
             </div>
 
             {/* Overlay */}
@@ -42,7 +42,7 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
             <header className="relative lg:h-[15vh] flex justify-center items-center lg:px-20 p-5">
 
                 <div className="relative w-10.5 h-7 lg:w-18 lg:h-12">
-                    <Image src={'/header_logo.png'} fill alt="header_logo" className="object-cover"/>
+                    <Image src={'/main_icon.png'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
             </header>
