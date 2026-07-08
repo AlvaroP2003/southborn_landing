@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localfont from 'next/font/local'
 import "./globals.css";
+import OrganizationSchema from "@/components/OrganizationSchema";
 
 const siteUrl = "https://southborn.co.za"; // update to your real domain
 
@@ -122,6 +123,9 @@ export default function RootLayout({
       lang="en"
       className={`${Bebas.variable} ${Inter.variable}`}
     >
+      <head>
+      <OrganizationSchema/>
+      </head>
       <body>{children}</body>
     </html>
   );
