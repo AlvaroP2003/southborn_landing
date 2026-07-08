@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | Southborn",
   },
   description:
-    "Southborn is a Cape Town-born gym and streetwear brand for South Africans who train hard and dress harder. Shop compression wear built for performance and street style.",
+    "Southborn is a South African-born gym and streetwear brand for those who train hard and dress harder. Shop compression wear built for performance and street style.",
   keywords: [
     "Southborn",
     "South African gym apparel",
