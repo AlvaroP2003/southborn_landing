@@ -70,6 +70,9 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
 
                     <h1 className="text-white">SOUTHBORN</h1>
                     <h2 className="text-white lg:text-xl text-sm tracking-[14] mb-8 font-medium">COMING SOON</h2>
+
+                    <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-xs text-center mb-8">Southborn is a South African gym and streetwear brand based in Cape Town, offering compression shirts and performance apparel for people who train hard and dress harder.</p>
+
                     <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-xs text-center mb-4 lg:mb-10">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
 
                      <ul className="relative flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm  py-4 lg:py-6 px-8 lg:px-12 mx-4">
