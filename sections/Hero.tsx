@@ -72,15 +72,18 @@ const socials = [ { href: "https://www.tiktok.com/@southborn_apparel", label: "T
                     <h2 className="text-white lg:text-xl text-sm tracking-[14] mb-8 font-medium">COMING SOON</h2>
                     <p className="text-neutral-400 lg:max-w-[35%] lg:text-base text-xs text-center mb-4 lg:mb-10">We're still perfecting the designs. Stay tuned on our socials to follow the process.</p>
 
-                     <ul className="flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm border-t border-white/20 py-4 lg:py-6 px-8 lg:px-12 mx-4">
-                    {
-                        socials.map((item,i) => (
-                            <Link key={i} href={item.href} target="blank" className="hover:text-white transition-all cursor-pointer tracking-wider">
-                                <span>{item.label}</span>
-                            </Link>
-                        ))
-                    }
-                </ul>
+                     <ul className="relative flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm  py-4 lg:py-6 px-8 lg:px-12 mx-4">
+                        {
+                            socials.map((item,i) => (
+                                <Link key={i} href={item.href} target="blank" className="hover:text-white transition-all cursor-pointer tracking-wider">
+                                    <span>{item.label}</span>
+                                </Link>
+                            ))
+                        }
+
+                        {/* Top border */}
+                        <div className="absolute top-0 left-[50%] -translate-x-[50%] h-px w-[80%] bg-linear-to-r from-transparent via-white/50 to-transparent"/>
+                    </ul>
             </main>
         </section>
     )
