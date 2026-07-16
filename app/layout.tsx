@@ -126,7 +126,7 @@ export default function RootLayout({
       <head>
       <OrganizationSchema/>
       </head>
-      <body>{children}</body>
+      <body className="bg-black">{children}</body>
     </html>
   );
 }

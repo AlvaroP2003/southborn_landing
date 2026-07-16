@@ -1,16 +1,19 @@
 @import "tailwindcss";
 
+* {
+  scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-h1 {
+h1,h2 {
   font-family: var(--font-bebas);
   line-height: 0.9;
 }
 
-h2,h3,p,span {
+h3,p,span {
   font-family: var(--font-inter);
   line-height: 1;
 }
