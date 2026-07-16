@@ -4,8 +4,8 @@ import { useState } from "react";
 import { ChevronLeft } from "lucide-react";
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState(null);
-
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  
   const faqData = [
     {
       question: "Where is Southborn based?",
