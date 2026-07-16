@@ -67,7 +67,7 @@ export default function Hero() {
             )}
 
             {/* Overlay */}
-            <div className="absolute bg-neutral-950/70 inset-0"/>
+            <div className="absolute bg-linear-to-b from-black/50 via-black/75 to-black inset-0"/>
 
 
             {/* Header */}
