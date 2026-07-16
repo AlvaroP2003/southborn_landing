@@ -92,7 +92,7 @@ export default function FAQ() {
                   }
                   className="flex w-full items-center justify-between py-4 lg:py-6 text-left cursor-pointer"
                 >
-                  <h3 className="lg:text-lg text-neutral-200 pr-6">
+                  <h3 className="text-sm lg:text-lg text-neutral-200 pr-6">
                     {item.question}
                   </h3>
 
