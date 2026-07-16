@@ -66,7 +66,7 @@ export default function Features() {
                             <div className="flex justify-between items-start px-5 lg:px-50">
                                 <h2 className="text-white text-3xl lg:text-5xl mb-4">{item.heading}</h2>
 
-                                <span className="text-neutral-500 text-xs max-w-[40%] lg:max-w-[30%]">AI-generated concept - not actual product photo</span>
+                                <span className="text-neutral-500 text-xs max-w-[40%] lg:max-w-[30%]">AI-generated concept</span>
                             </div>
 
                             <div className="relative flex gap-2 pl-5 lg:pl-50 pr-10 overflow-scroll flex-nowrap">
@@ -77,8 +77,8 @@ export default function Features() {
                                                 <Image src={feature.image} fill alt={feature.title} className="object-cover hover:scale-110 transition-all duration-300"/>
                                             </div>
 
-                                            <h3 className="text-white lg:text-lg mb-2 mx-2 font-medium">{feature.title}</h3>
-                                            <p className="text-neutral-400 text-sm mx-2">{feature.body}</p>
+                                            <h3 className="text-white text-base lg:text-lg mb-2 mx-2 font-medium">{feature.title}</h3>
+                                            <p className="text-neutral-400 text-xs lg:text-sm mx-2">{feature.body}</p>
                                         </div>
                                     ))
                                 }

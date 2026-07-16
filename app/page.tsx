@@ -13,7 +13,7 @@ export default function Home() {
       <Features/>
       <FAQ/>
       {/* <Footer/> */}
-      <Loader/>
+      {/* <Loader/> */}
     </>
   );
 }
