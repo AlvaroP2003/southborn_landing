@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section id="about" className="flex flex-col lg:flex-row lg:justify-between h-[50vh] py-20 lg:py-40 px-5 lg:px-50 lg:h-[70vh]">
+        <section id="about" className="flex flex-col lg:flex-row lg:justify-between py-50 px-5 lg:px-50 lg:h-[70vh]">
             
             <h1 className="text-white text-4xl lg:text-6xl lg:flex-1 mb-4 lg:mb-0">WHERE GYM MEETS THE STREET</h1>
 
