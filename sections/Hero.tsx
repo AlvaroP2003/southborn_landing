@@ -11,7 +11,7 @@ import { useGSAP } from "@gsap/react";
 export default function Hero() {
 
     const links = [
-        { href: "#about", label: "About Us" },
+        { href: "#about", label: "About" },
         { href: "#features", label: "Features" },
         { href: "#faq", label: "FAQ" },
     ];
@@ -77,7 +77,7 @@ export default function Hero() {
                     <Image src={'/main_icon.svg'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
-                 <ul className="flex text-neutral-300 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm">
+                 <ul className="flex text-neutral-400 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm">
                         {
                             links.map((item,i) => (
                                 <Link key={i} href={item.href} className="hover:text-white transition-all cursor-pointer tracking-wider">

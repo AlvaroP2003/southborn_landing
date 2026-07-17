@@ -19,7 +19,7 @@ h3,p,span {
 }
 
 main h1 {
-  font-size: clamp(5rem, 8vw, 50rem);
+  font-size: clamp(5rem, 9vw, 50rem);
 
    background: linear-gradient(to top, #ffffff, #a7a7a7);
   -webkit-background-clip: text;

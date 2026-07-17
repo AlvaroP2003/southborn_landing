@@ -15,7 +15,7 @@ export default function FAQ() {
     {
       question: "Do you have a physical store I can visit?",
       answer:
-        "We're currently online-only, which lets us keep prices competitive and focus on getting new drops to you faster. You can browse and shop the full Southborn collection right here on our website.",
+        "We're currently online-only, which lets us keep prices competitive and focus on getting new drops to you faster. You will be able to browse and shop the full Southborn collection right here on our website once we're live.",
     },
     {
       question: "Do you ship outside of South Africa?",
@@ -26,29 +26,29 @@ export default function FAQ() {
       question:
         "What makes Southborn different from other gym and streetwear labels?",
       answer:
-        "South Africa is massive and deserves its own—not a copy of overseas trends. We build for the local community first, giving people what they actually want instead of chasing what's big somewhere else.",
+        "South Africa is massive and deserves its own brand, not a copy of overseas trends. We build for the local community first, giving people what they actually want instead of chasing what's big somewhere else.",
     },
     {
       question: "Who's behind Southborn?",
       answer:
-        "We're two brothers bootstrapping this from the ground up—proudly South African, self-funded, and building something real for our community.",
+        "We're two brothers bootstrapping this from the ground up. Self-funded, and building something real for our community.",
     },
     {
       question: "Why the name Southborn?",
       answer:
-        "The name wasn't overthought—it just came to us, and once it did, it screamed South Africa. Southborn means born in South Africa, and that's exactly what we're building around.",
+        "The name wasn't overthought, it just came to us, and once it did, it screamed South Africa. Southborn means born in South Africa, and that's exactly what we're building around.",
     },
     {
       question:
         "Is Southborn clothing designed for the gym, the street, or both?",
       answer:
-        "Both, without compromise. Southborn pieces are made to be worn anywhere—straight from your workout into the rest of your day.",
+        "Both, without compromise. Southborn pieces are made to be worn anywhere, straight from your workout into the rest of your day.",
     },
     {
       question:
         "Does Southborn collaborate with local athletes, gyms, or creators?",
       answer:
-        "Yes—we're actively working to team up with local influencers, gyms, and creators who represent the community we're building for, helping us grow together.",
+        "Yes, we're actively working to team up with local influencers, gyms, and creators who represent the community we're building for, helping us grow together.",
     },
   ];
 
