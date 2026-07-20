@@ -66,7 +66,7 @@ export default function Features() {
                             <div className="flex justify-between items-center px-5 lg:px-50">
                                 <h2 className="text-white text-3xl lg:text-6xl mb-4">{item.heading}</h2>
 
-                                <span className="text-neutral-500 text-xs lg:text-sm max-w-[40%] lg:max-w-[30%]">[ AI-generated concepts ]</span>
+                                <span className="text-neutral-500 text-[8px] lg:text-sm max-w-[40%] lg:max-w-[30%]">[ AI-generated concepts ]</span>
                             </div>
 
                             <div className="relative flex gap-2 pl-5 lg:pl-50 pr-10 overflow-scroll flex-nowrap">

@@ -24,7 +24,7 @@ export default function FAQ() {
     },
     {
       question:
-        "What makes Southborn different from other gym and streetwear labels?",
+        "What makes Southborn different?",
       answer:
         "South Africa is massive and deserves its own brand, not a copy of overseas trends. We build for the local community first, giving people what they actually want instead of chasing what's big somewhere else.",
     },
@@ -40,13 +40,13 @@ export default function FAQ() {
     },
     {
       question:
-        "Is Southborn clothing designed for the gym, the street, or both?",
+        "Is Southborn for the gym, the street, or both?",
       answer:
         "Both, without compromise. Southborn pieces are made to be worn anywhere, straight from your workout into the rest of your day.",
     },
     {
       question:
-        "Does Southborn collaborate with local athletes, gyms, or creators?",
+        "Does Southborn collab with local athletes creators?",
       answer:
         "Yes, we're actively working to team up with local influencers, gyms, and creators who represent the community we're building for, helping us grow together.",
     },
