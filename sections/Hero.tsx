@@ -56,7 +56,7 @@ export default function Hero() {
             {isDesktop !== null && (
                 <div className="absolute h-full w-full">
                     <Image
-                        src={isDesktop ? '/hero_lg.png' : '/hero_sml.webp'}
+                        src={isDesktop ? '/hero_lg.webp' : '/hero_sml.webp'}
                         fill
                         alt="header_logo"
                         className="object-cover"
@@ -67,7 +67,7 @@ export default function Hero() {
             )}
 
             {/* Overlay */}
-            <div className="absolute bg-linear-to-b from-black/50 via-black/75 to-black inset-0"/>
+            <div className="absolute bg-linear-to-b from-black/50 via-black/30 to-black inset-0"/>
 
 
             {/* Header */}
@@ -77,7 +77,7 @@ export default function Hero() {
                     <Image src={'/main_icon.svg'} fill alt="header_logo" className="object-cover"/>
                 </div>
 
-                 <ul className="flex text-neutral-400 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-xs lg:text-sm">
+                 <ul className="flex text-neutral-400 flex-row flex-wrap lg:gap-10 gap-4 justify-center items-center text-[10px] lg:text-sm">
                         {
                             links.map((item,i) => (
                                 <Link key={i} href={item.href} className="hover:text-white transition-all cursor-pointer tracking-wider">
@@ -91,7 +91,7 @@ export default function Hero() {
 
 
             {/* Main Section */}
-            <main id="main" className="relative flex-1 flex pt-50 items-center flex-col px-5">
+            <main id="main" className="relative flex-1 flex pt-40 items-center flex-col px-5">
 
                     <h1 className="text-white">SOUTHBORN</h1>
                     <h2 className="text-white lg:text-3xl text-sm tracking-[14] mb-8 font-medium">COMING SOON</h2>

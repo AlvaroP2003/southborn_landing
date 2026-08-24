@@ -48,8 +48,7 @@ export default function FAQ() {
       question:
         "Does Southborn collab with local athletes creators?",
       answer:
-        "Yes, we're actively working to team up with local influencers, gyms, and creators who represent the community we're building for, helping us grow together.",
-    },
+"Yes, we definitely plan to implement collaborations with local influencers, gyms, and creators in the future who represent the community we're building for, helping us grow together."    },
   ];
 
   const faqSchema = {

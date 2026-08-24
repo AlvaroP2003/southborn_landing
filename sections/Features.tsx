@@ -5,6 +5,31 @@ export default function Features() {
 
     const productFeatures = [
     {
+        heading: "Heavyweight Tee",
+        features: [
+        {
+            image: "/features/oversized/1.webp",
+            title: "Oversized, On Purpose",
+            body: "Cut loose, not lazy. A relaxed, drop-shoulder fit designed to hang right, layer, and lounge without losing shape."
+        },
+        {
+            image: "/features/oversized/3.webp",
+            title: "Stitched, Not Printed",
+            body: "A small mark, made to last. Our front logo is embroidered - not slapped on - for a finish that holds up long after prints fade or crack."
+        },
+        {
+            image: "/features/oversized/4.webp",
+            title: "Bold on the Back",
+            body: "Impossible to ignore. A full back graphic with a raw, distorted edge - made to turn heads whether you're under the bar or out on the block."
+        },
+          {
+            image: "/features/oversized/2.webp",
+            title: "Soft as Standard",
+            body: "300 GSM pure cotton, zero compromise. Breathable, soft, and built to get better with every wash - this is comfort you feel the second you put it on."
+        },
+        ]
+    },
+     {
         heading: "Compression",
         features: [
         {
@@ -27,31 +52,6 @@ export default function Features() {
             title: "Detail in Every Stitch",
             body: "The finishing touch that says it's ours. A silicone gripper keeps everything locked in place, a small detail that elevates every piece from activewear to signature."
         }
-        ]
-    },
-    {
-        heading: "Oversized Tee",
-        features: [
-        {
-            image: "/features/oversized/1.webp",
-            title: "Oversized, On Purpose",
-            body: "Cut loose, not lazy. A relaxed, drop-shoulder fit designed to hang right — room to move, layer, and lounge without losing shape."
-        },
-        {
-            image: "/features/oversized/3.webp",
-            title: "Stitched, Not Printed",
-            body: "A small mark, made to last. Our front logo is embroidered — not slapped on — for a finish that holds up long after prints fade or crack."
-        },
-        {
-            image: "/features/oversized/4.webp",
-            title: "Bold on the Back",
-            body: "Impossible to ignore. A full back graphic with a raw, distorted edge — made to turn heads whether you're under the bar or out on the block."
-        },
-          {
-            image: "/features/oversized/2.webp",
-            title: "Soft as Standard",
-            body: "Pure cotton, zero compromise. Breathable, soft, and built to get better with every wash — this is comfort you feel the second you put it on."
-        },
         ]
     }
     ];    
