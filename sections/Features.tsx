@@ -12,6 +12,11 @@ export default function Features() {
             title: "Oversized, On Purpose",
             body: "Cut loose, not lazy. A relaxed, drop-shoulder fit designed to hang right, layer, and lounge without losing shape."
         },
+          {
+            image: "/features/oversized/2.webp",
+            title: "Soft as Standard",
+            body: "300 GSM pure cotton, zero compromise. Breathable, soft, and built to get better with every wash - this is comfort you feel the second you put it on."
+        },
         {
             image: "/features/oversized/3.webp",
             title: "Stitched, Not Printed",
@@ -21,12 +26,7 @@ export default function Features() {
             image: "/features/oversized/4.webp",
             title: "Bold on the Back",
             body: "Impossible to ignore. A full back graphic with a raw, distorted edge - made to turn heads whether you're under the bar or out on the block."
-        },
-          {
-            image: "/features/oversized/2.webp",
-            title: "Soft as Standard",
-            body: "300 GSM pure cotton, zero compromise. Breathable, soft, and built to get better with every wash - this is comfort you feel the second you put it on."
-        },
+        }
         ]
     },
      {
