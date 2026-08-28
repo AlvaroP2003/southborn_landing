@@ -32,15 +32,15 @@ export default function Features() {
      {
         heading: "Compression",
         features: [
-        {
+       {
             image: "/features/compression/1.webp",
             title: "Built to Last",
-            body: "Substantial by design. Every piece is crafted with a heavier weight than the industry standard — so it holds its shape, resists wear, and doesn't thin out after a few washes. This isn't fast fashion fabric."
+            body: "Every piece is crafted with a heavier weight than the industry standard, using a premium nylon base with four-way stretch — so it holds its shape, moves with you, and resists wear without thinning out after a few washes. This isn't fast fashion fabric."
         },
         {
             image: "/features/compression/2.webp",
             title: "Engineered to Hold",
-            body: "Reinforced where it matters most. Our stitching is built to handle real movement, not just look good on a hanger — so seams stay intact no matter how hard you push."
+            body: "Reinforced where it matters most. Our stitching is built to handle real movement, not just look good on a hanger, so seams stay intact no matter how hard you push."
         },
         {
             image: "/features/compression/3.webp",
